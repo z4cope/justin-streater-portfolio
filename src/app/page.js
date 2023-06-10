@@ -5,6 +5,7 @@ export default function Home() {
   const styles = {
     width: "100%",
     height: "100vh",
+    objectFit: "cover",
   };
   return (
     <main className={styles.main}>
